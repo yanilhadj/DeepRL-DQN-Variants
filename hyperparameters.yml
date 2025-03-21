@@ -1,0 +1,29 @@
+ALE/Pong-v5:
+  env_id: ALE/Pong-v5  # Identifiant de l'environnement Gymnasium
+  replay_memory_size: 1000  # Taille maximale de la mémoire d'expérience
+  mini_batch_size: 32  # Taille des lots d'entraînement prélevés dans la mémoire
+  epsilon_init: 1  # Valeur initiale d'epsilon (exploration)
+  epsilon_decay: 0.995  # Facteur de décroissance d'epsilon par étape
+  epsilon_min: 0.01  # Valeur minimale d'epsilon (exploration minimale)
+  gamma: 0.99
+  learning_rate: 0.004
+
+MountainCar-v0:
+  env_id: MountainCar-v0  # Identifiant de l'environnement Gymnasium
+  replay_memory_size: 10000  # Taille maximale de la mémoire d'expérience
+  mini_batch_size: 128  # Taille des lots d'entraînement prélevés dans la mémoire
+  epsilon_init: 1  # Valeur initiale d'epsilon (exploration)
+  epsilon_decay: 0.995  # Facteur de décroissance d'epsilon par étape
+  epsilon_min: 0.01  # Valeur minimale d'epsilon (exploration minimale)
+  gamma: 0.99
+  learning_rate: 0.004
+
+LunarLander-v3:
+  env_id: LunarLander-v3  # Identifiant de l'environnement Gymnasium
+  replay_memory_size: 10000  # Taille maximale de la mémoire d'expérience
+  mini_batch_size: 128  # Taille des lots d'entraînement prélevés dans la mémoire
+  epsilon_init: 1  # Valeur initiale d'epsilon (exploration)
+  epsilon_decay: 0.995  # Facteur de décroissance d'epsilon par étape
+  epsilon_min: 0.01  # Valeur minimale d'epsilon (exploration minimale)
+  gamma: 0.99
+  learning_rate: 0.004
